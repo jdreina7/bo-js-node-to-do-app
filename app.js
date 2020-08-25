@@ -3,7 +3,7 @@ const colors = require('colors');
 
 const porHacer = require('./to-do/to-do');
 
-
+// Obtenemos el argv desde el Yargs
 let comando = argv._[0];
 
 switch (comando) {
